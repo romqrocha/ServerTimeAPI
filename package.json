@@ -1,0 +1,20 @@
+{
+  "name": "servertimeapi",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/romqrocha/ServerTimeAPI#readme",
+  "bugs": {
+    "url": "https://github.com/romqrocha/ServerTimeAPI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romqrocha/ServerTimeAPI.git"
+  },
+  "license": "ISC",
+  "author": "romqrocha",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
