@@ -5,6 +5,7 @@ import { en } from './langs/en.js';
 
 const nameParam = "name";
 
+const port = 2100;
 http.createServer((req, res) => {
     let urlParams = url.parse(req.url, true);
 
@@ -18,4 +19,6 @@ http.createServer((req, res) => {
     res.write('</p>');
 
     res.end();
-}).listen(2100);
+}).listen(port);
+
+console.log(`Listening on port ${port}`);
